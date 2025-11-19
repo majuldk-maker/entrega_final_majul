@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Agenda Ilustrada A5",
+    "description": "Agenda semanal con portada ilustrada y stickers.",
+    "price": 1200,
+    "stock": 10,
+    "img": "assets/agenda-a5.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Set de Pinceles Digital",
+    "description": "Brush pack para tablet: acuarela y texturas.",
+    "price": 800,
+    "stock": 15,
+    "img": "assets/pinceles.png"
+  },
+  {
+    "id": 3,
+    "title": "Pack Mockups",
+    "description": "3 mockups PSD para mostrar tus diseños.",
+    "price": 950,
+    "stock": 7,
+    "img": "assets/mockups.jpg"
+  }
+]
