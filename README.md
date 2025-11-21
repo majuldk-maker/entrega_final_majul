@@ -23,7 +23,9 @@ Este proyecto web tiene como objetivo mostrar nuestros servicios y facilitar el 
 - **HTML5** y **CSS3**
 - **Bootstrap 5**
 - **Font Awesome**
-- **JavaScript (básico)**
+- **JavaScript**
+- **Json**
+- **SweetAlert**
 - Archivos multimedia (imágenes y videos)
 
 ---
