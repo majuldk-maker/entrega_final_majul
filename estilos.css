@@ -272,7 +272,7 @@ footer .footerRedes a i {
     align-items: center;
   }
 
-#open-cart-btn {
+#btn-abrir-carrito {
   background: transparent;
   border: 2px solid var(--accent);
   color: var(--accent);
@@ -283,7 +283,7 @@ footer .footerRedes a i {
   margin-right: 20px;
 }
 
-#open-cart-btn:hover {
+#btn-abrir-carrito:hover {
   background: var(--accent);
   color: #fff;
   transform: translateY(-2px);
@@ -347,7 +347,7 @@ footer .footerRedes a i {
   font-weight: 700;
 }
 
-.card button.add-to-cart-btn {
+.card button.btn-agregar-carrito {
   background: var(--accent);
   color: #fff;
   border: none;
@@ -360,7 +360,7 @@ footer .footerRedes a i {
   width: 100%;
 }
 
-.card button.add-to-cart-btn:hover {
+.card button.btn-agregar-carrito:hover {
   background: var(--accent-2);
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(55, 182, 182, 0.25);
@@ -424,7 +424,7 @@ footer .footerRedes a i {
   margin: 0 0 20px 0;
 }
 
-#close-cart {
+#btn-cerrar-carrito {
   background: transparent;
   border: 2px solid var(--muted);
   color: var(--muted);
@@ -435,13 +435,13 @@ footer .footerRedes a i {
   transition: all 0.3s ease;
 }
 
-#close-cart:hover {
+#btn-cerrar-carrito:hover {
   background: var(--muted);
   color: #fff;
 }
 
 
-#cart-items {
+#items-carrito {
   margin: 20px 0;
   min-height: 100px;
   max-height: 50vh;
@@ -449,13 +449,13 @@ footer .footerRedes a i {
   padding-right: 10px;
 }
 
-#cart-items p {
+#items-carrito p {
   color: var(--muted);
   text-align: center;
   padding: 40px 0;
 }
 
-.cart-row {
+.carrito-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -464,18 +464,18 @@ footer .footerRedes a i {
   border-bottom: 1px solid #e6eef0;
 }
 
-.cart-row:last-child {
+.carrito-row:last-child {
   border-bottom: none;
 }
 
-.cart-row strong {
+.carrito-row strong {
   color: var(--text);
   font-size: 16px;
   display: block;
   margin-bottom: 4px;
 }
 
-.cart-row p {
+.carrito-row p {
   color: var(--muted);
   font-size: 14px;
   margin: 0;
@@ -483,7 +483,7 @@ footer .footerRedes a i {
   text-align: left;
 }
 
-.cart-row input.qty-input {
+.carrito-row input.cant-input {
   width: 60px;
   padding: 6px 8px;
   border: 1px solid #e6eef0;
@@ -493,7 +493,7 @@ footer .footerRedes a i {
   color: var(--text);
 }
 
-.cart-row button.remove-btn {
+.carrito-row button.remove-btn {
   background: transparent;
   border: 1px solid #ff6b6b;
   color: #ff6b6b;
@@ -505,13 +505,13 @@ footer .footerRedes a i {
   transition: all 0.3s ease;
 }
 
-.cart-row button.remove-btn:hover {
+.carrito-row button.remove-btn:hover {
   background: #ff6b6b;
   color: #fff;
 }
 
 
-#cart-summary {
+#carrito-resumen {
   margin-top: 24px;
   padding-top: 20px;
   border-top: 2px solid var(--accent);
@@ -522,7 +522,7 @@ footer .footerRedes a i {
   padding-bottom: 10px;
 }
 
-#cart-summary p {
+#carrito-resumen p {
   font-size: 20px;
   font-weight: 700;
   color: var(--text);
@@ -530,19 +530,19 @@ footer .footerRedes a i {
   text-align: center;
 }
 
-#cart-summary #cart-total {
+#carrito-resumen #carrito-total {
   color: var(--accent);
   font-size: 24px;
 }
 
-#cart-summary > div {
+#carrito-resumen > div {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
 }
 
-#checkout-btn,
-#clear-cart-btn {
+#btn-checkout,
+#btn-borrar-carrito {
   flex: 1;
   padding: 12px 20px;
   border: none;
@@ -553,24 +553,24 @@ footer .footerRedes a i {
   min-width: 140px;
 }
 
-#checkout-btn {
+#btn-checkout {
   background: var(--accent);
   color: #fff;
 }
 
-#checkout-btn:hover {
+#btn-checkout:hover {
   background: var(--accent-2);
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(55, 182, 182, 0.25);
 }
 
-#clear-cart-btn {
+#btn-borrar-carrito {
   background: transparent;
   border: 2px solid var(--muted);
   color: var(--muted);
 }
 
-#clear-cart-btn:hover {
+#btn-borrar-carrito:hover {
   background: var(--muted);
   color: #fff;
 }
@@ -586,29 +586,29 @@ footer .footerRedes a i {
     padding: 20px;
   }
 
-  .cart-row {
+  .carrito-row {
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
   }
 
-  .cart-row > div:last-child {
+  .carrito-row > div:last-child {
     width: 100%;
     display: flex;
     gap: 8px;
     align-items: center;
   }
 
-  #cart-summary > div {
+  #carrito-resumen > div {
     flex-direction: column;
   }
 
-  #checkout-btn,
-  #clear-cart-btn {
+  #btn-checkout,
+  #btn-borrar-carrito {
     width: 100%;
   }
 
-  #open-cart-btn {
+  #btn-abrir-carrito {
     font-size: 14px;
     padding: 6px 12px;
   }

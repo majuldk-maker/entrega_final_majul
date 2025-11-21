@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "titulo": "Agenda Ilustrada Margarita A5",
+    "descripcion": "Agenda semanal con portada ilustrada y stickers.",
+    "precio": 12000,
+    "stock": 10,
+    "img": "./assets/imagenes/agenda2.png"
+  },
+  {
+    "id": 2,
+    "titulo": "Agenda Ilustrada Flowers A5",
+    "descripcion": "Brush pack para tablet: acuarela y texturas.",
+    "precio": 10000,
+    "stock": 15,
+    "img": "./assets/imagenes/agenda3.png"
+  },
+  {
+    "id": 3,
+    "titulo": "Agenda Ilustrada Tulipanes A5",
+    "descripcion": "3 mockups PSD para mostrar tus diseños.",
+    "precio": 10000,
+    "stock": 7,
+    "img": "./assets/imagenes/agenda4.png"
+  },
+  {
+    "id": 4,
+    "titulo": "Bitacora Viajera Mapamundi A5",
+    "descripcion": "3 mockups PSD para mostrar tus diseños.",
+    "precio": 15000,
+    "stock": 7,
+    "img": "./assets/imagenes/2.png"
+  }
+]
